@@ -371,7 +371,7 @@ public class Impresora {
         pagina.setColor(Color.black);
         pagina.drawString("COMPROBANTE N° 00"+Inicio.deposito.getNumero()+"-000"+caja.getNumero(),40,130);
         pagina.setFont(fuente11);
-        pagina.drawString("REMITO INTERNO", 320,130);
+        pagina.drawString("PRESUPUESTO", 320,130);
         pagina.setFont(fuente);
         pagina.drawString("FECHA :"+fec, 40,140);
         pagina.setFont(fuente6);
@@ -422,7 +422,12 @@ public class Impresora {
         columna=columna + 20;
         pagina.setFont(fuente6);
         pagina.drawString("PRECIO TOTAL :"+Numeros.ConvetirNumeroDosDigitos(caja.getMontoTotal()),250,columna);
-        
+        columna=columna + 10;
+        pagina.drawString("Controle su Vuelto y Mercadería antes de retirarse del local", 40,columna);
+        columna=columna + 10;
+        pagina.drawString("NO SE ACEPTAN RECLAMOS", 40,columna);
+        columna=columna + 10;
+        pagina.drawString("GRACIAS POR SU VISITA", 40,columna);
         
         pagina.dispose();
         pj.end();
