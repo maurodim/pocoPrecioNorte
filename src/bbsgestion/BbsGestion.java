@@ -43,7 +43,7 @@ public class BbsGestion {
         try{
            // UIManager.setLookAndFeel("com.sun.java.swing.plaf.nimbus.NimbusLookAndFeel");
             //UIManager.setLookAndFeel("com.jtattoo.plaf.aero.AeroLookAndFeel");
-            UIManager.setLookAndFeel("com.jtattoo.plaf.hifi.HiFiLookAndFeel");
+            UIManager.setLookAndFeel("com.jtattoo.plaf.aluminium.AluminiumLookAndFeel");
         }catch(Exception e){
             e.printStackTrace();
         }
