@@ -62,6 +62,17 @@ public class Propiedades {
     static String SKEY;
     static String DEPOSITO;
     static String PUERTOIMPRESORA;
+    static String CORREOSALIENTE;
+    static String PASS;
+
+    public static String getCORREOSALIENTE() {
+        return CORREOSALIENTE;
+    }
+
+    public static String getPASS() {
+        return PASS;
+    }
+    
 
     public static String getPUERTOIMPRESORA() {
         return PUERTOIMPRESORA;
@@ -382,7 +393,8 @@ public class Propiedades {
                             CONDICION=p.getProperty("CONDICION");
                             SKEY=p.getProperty("SKEY");
                             PUERTOIMPRESORA=p.getProperty("PUERTOIMPRESORA");
-                            
+                            CORREOSALIENTE="bambusuite@bambusoft.com.ar";
+                            PASS="bambuSoft001";
                         
                     
                     //System.out.println(renglon+" // "+linea);
