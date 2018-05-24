@@ -231,6 +231,7 @@ public class Inicio extends javax.swing.JFrame {
         jDesktopPane1.add(jLabel1, java.awt.BorderLayout.PAGE_END);
 
         jMenu1.setText("Administracion");
+        jMenu1.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
 
         jMenuItem8.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_R, java.awt.event.InputEvent.CTRL_MASK));
         jMenuItem8.setText("Rubros");
@@ -296,6 +297,7 @@ public class Inicio extends javax.swing.JFrame {
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Stock");
+        jMenu2.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
 
         jMenuItem6.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_I, java.awt.event.InputEvent.CTRL_MASK));
         jMenuItem6.setText("Ingreso de Mercaderia");
@@ -334,6 +336,7 @@ public class Inicio extends javax.swing.JFrame {
         jMenuBar1.add(jMenu2);
 
         jMenu3.setText("Caja");
+        jMenu3.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
 
         jMenuItem5.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_B, java.awt.event.InputEvent.CTRL_MASK));
         jMenuItem5.setText("Abrir Caja");
@@ -392,6 +395,7 @@ public class Inicio extends javax.swing.JFrame {
         jMenuBar1.add(jMenu3);
 
         jMenu4.setText("Usuarios");
+        jMenu4.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
 
         jMenuItem1.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_G, java.awt.event.InputEvent.CTRL_MASK));
         jMenuItem1.setText("Cambiar de Usuario");
@@ -405,6 +409,7 @@ public class Inicio extends javax.swing.JFrame {
         jMenuBar1.add(jMenu4);
 
         jMenu5.setText("Parametros");
+        jMenu5.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
 
         jMenuItem15.setText("Tipos de Accesos");
         jMenuItem15.addActionListener(new java.awt.event.ActionListener() {
@@ -429,6 +434,7 @@ public class Inicio extends javax.swing.JFrame {
         jMenuBar1.add(jMenu5);
 
         jMenu6.setText("Clientes");
+        jMenu6.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
 
         jMenuItem20.setText("Modificacion de clientes");
         jMenuItem20.addActionListener(new java.awt.event.ActionListener() {
@@ -441,6 +447,7 @@ public class Inicio extends javax.swing.JFrame {
         jMenuBar1.add(jMenu6);
 
         jMenu7.setText("Gastos Fijos");
+        jMenu7.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
 
         jMenuItem22.setText("Administracion de Gastos Fijos");
         jMenuItem22.addActionListener(new java.awt.event.ActionListener() {
