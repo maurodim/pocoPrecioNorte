@@ -64,6 +64,12 @@ public class Propiedades {
     static String PUERTOIMPRESORA;
     static String CORREOSALIENTE;
     static String PASS;
+    static String DUMP;
+
+    public static String getDUMP() {
+        return DUMP;
+    }
+    
 
     public static String getCORREOSALIENTE() {
         return CORREOSALIENTE;
@@ -395,6 +401,7 @@ public class Propiedades {
                             PUERTOIMPRESORA=p.getProperty("PUERTOIMPRESORA");
                             CORREOSALIENTE="bambusuite@bambusoft.com.ar";
                             PASS="bambuSoft001";
+                            DUMP=p.getProperty("DUMP");
                         
                     
                     //System.out.println(renglon+" // "+linea);
